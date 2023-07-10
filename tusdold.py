@@ -19,14 +19,14 @@ from telegram.ext import (
 locale.setlocale(locale.LC_ALL, 'C.UTF-8')
 
 # Telegram bot token
-TOKEN = '6391366908:AAEdagHRPhieifHk4nhRH0HBrEccSR7bvK0'
-ids = -900672972
+TOKEN = ''
+ids = -1001885723366
 bal = 36271
 
 # API endpoint
 API = 'https://api.venus.io/api/vtoken'
 
-log_file = 'log.log'
+log_file = 'tusdold.log'
 
 # Enable logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
@@ -175,7 +175,7 @@ def main() -> None:
     
     
     try:
-        # Telegram botunuzun güncellemeleri almak için yaptığı işlemler burada olmalı
+        # Telegram bot update
         # Örneğin:
         job_queue = bot.job_queue
         job_queue.run_repeating(check_liq, interval=14400, first=0)
