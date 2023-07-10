@@ -1,0 +1,1727 @@
+2023-07-09 17:40:50 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 17:40:50 - telegram.ext.Application - INFO - Application started
+2023-07-09 17:43:41 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 17:43:41 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 17:43:41 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 17:43:43 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:43:43 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:43:44 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 17:43:44 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 17:43:44 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 17:43:44 - telegram.ext.Application - INFO - Application started
+2023-07-09 17:43:56 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 53, in balance
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:43:56 - __main__ - ERROR - Network Error
+2023-07-09 17:44:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:45:43 UTC)" (scheduled at 2023-07-09 14:44:43.854407+00:00)
+2023-07-09 17:44:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 74, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:44:44 - __main__ - ERROR - Network Error
+2023-07-09 17:44:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:45:43 UTC)" executed successfully
+2023-07-09 17:45:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:46:43 UTC)" (scheduled at 2023-07-09 14:45:43.854407+00:00)
+2023-07-09 17:45:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 74, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:45:44 - __main__ - ERROR - Network Error
+2023-07-09 17:45:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:46:43 UTC)" executed successfully
+2023-07-09 17:46:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:47:43 UTC)" (scheduled at 2023-07-09 14:46:43.854407+00:00)
+2023-07-09 17:46:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 74, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:46:44 - __main__ - ERROR - Network Error
+2023-07-09 17:46:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:47:43 UTC)" executed successfully
+2023-07-09 17:47:42 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 17:47:42 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 17:47:42 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 17:47:44 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:47:44 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:47:44 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 17:47:44 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 17:47:44 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 17:47:44 - telegram.ext.Application - INFO - Application started
+2023-07-09 17:48:44 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:49:44 UTC)" (scheduled at 2023-07-09 14:48:44.345016+00:00)
+2023-07-09 17:48:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 79, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:48:44 - __main__ - ERROR - Network Error
+2023-07-09 17:48:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:49:44 UTC)" executed successfully
+2023-07-09 17:49:44 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:50:44 UTC)" (scheduled at 2023-07-09 14:49:44.345016+00:00)
+2023-07-09 17:49:45 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 79, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:49:45 - __main__ - ERROR - Network Error
+2023-07-09 17:49:45 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:50:44 UTC)" executed successfully
+2023-07-09 17:50:44 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:51:44 UTC)" (scheduled at 2023-07-09 14:50:44.345016+00:00)
+2023-07-09 17:50:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 79, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:50:44 - __main__ - ERROR - Network Error
+2023-07-09 17:50:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:51:44 UTC)" executed successfully
+2023-07-09 17:51:44 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:52:44 UTC)" (scheduled at 2023-07-09 14:51:44.345016+00:00)
+2023-07-09 17:51:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 79, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:51:44 - __main__ - ERROR - Network Error
+2023-07-09 17:51:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:52:44 UTC)" executed successfully
+2023-07-09 17:52:44 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:53:44 UTC)" (scheduled at 2023-07-09 14:52:44.345016+00:00)
+2023-07-09 17:52:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 79, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:52:44 - __main__ - ERROR - Network Error
+2023-07-09 17:52:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:53:44 UTC)" executed successfully
+2023-07-09 17:53:44 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:54:44 UTC)" (scheduled at 2023-07-09 14:53:44.345016+00:00)
+2023-07-09 17:53:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 79, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:53:44 - __main__ - ERROR - Network Error
+2023-07-09 17:53:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:54:44 UTC)" executed successfully
+2023-07-09 17:54:44 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:55:44 UTC)" (scheduled at 2023-07-09 14:54:44.345016+00:00)
+2023-07-09 17:54:44 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 79, in check_liquidity
+    if liquidity > 10000:
+TypeError: '>' not supported between instances of 'str' and 'int'
+2023-07-09 17:54:44 - __main__ - ERROR - Network Error
+2023-07-09 17:54:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:55:44 UTC)" executed successfully
+2023-07-09 17:54:53 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 17:54:53 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 17:54:53 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 17:54:55 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:54:55 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:54:56 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 17:54:56 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 17:54:56 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 17:54:56 - telegram.ext.Application - INFO - Application started
+2023-07-09 17:55:55 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:56:55 UTC)" (scheduled at 2023-07-09 14:55:55.875888+00:00)
+2023-07-09 17:55:56 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:56:55 UTC)" executed successfully
+2023-07-09 17:56:55 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:57:55 UTC)" (scheduled at 2023-07-09 14:56:55.875888+00:00)
+2023-07-09 17:56:56 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:57:55 UTC)" executed successfully
+2023-07-09 17:57:02 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 17:57:02 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 17:57:02 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 17:57:05 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:57:05 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:57:06 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 17:57:06 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 17:57:06 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 17:57:06 - telegram.ext.Application - INFO - Application started
+2023-07-09 17:57:11 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 17:57:11 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 17:57:11 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 17:57:17 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:57:17 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:57:18 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 17:57:18 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 17:57:18 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 17:57:18 - telegram.ext.Application - INFO - Application started
+2023-07-09 17:57:29 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 17:57:29 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 17:57:29 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 17:57:36 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:57:36 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 17:57:36 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 17:57:36 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 17:57:36 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 17:57:36 - telegram.ext.Application - INFO - Application started
+2023-07-09 17:58:36 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:59:36 UTC)" (scheduled at 2023-07-09 14:58:36.338499+00:00)
+2023-07-09 17:58:37 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 14:59:36 UTC)" executed successfully
+2023-07-09 17:59:36 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:00:36 UTC)" (scheduled at 2023-07-09 14:59:36.338499+00:00)
+2023-07-09 17:59:37 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:00:36 UTC)" executed successfully
+2023-07-09 18:00:36 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:01:36 UTC)" (scheduled at 2023-07-09 15:00:36.338499+00:00)
+2023-07-09 18:00:37 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:01:36 UTC)" executed successfully
+2023-07-09 18:01:36 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:02:36 UTC)" (scheduled at 2023-07-09 15:01:36.338499+00:00)
+2023-07-09 18:01:37 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:02:36 UTC)" executed successfully
+2023-07-09 18:02:36 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:03:36 UTC)" (scheduled at 2023-07-09 15:02:36.338499+00:00)
+2023-07-09 18:02:37 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:03:36 UTC)" executed successfully
+2023-07-09 18:03:36 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:04:36 UTC)" (scheduled at 2023-07-09 15:03:36.338499+00:00)
+2023-07-09 18:03:37 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:04:36 UTC)" executed successfully
+2023-07-09 18:04:36 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:05:36 UTC)" (scheduled at 2023-07-09 15:04:36.338499+00:00)
+2023-07-09 18:04:37 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:05:36 UTC)" executed successfully
+2023-07-09 18:04:56 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:04:56 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:04:56 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:04:59 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:04:59 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:04:59 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:04:59 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:04:59 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:04:59 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:05:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:06:59 UTC)" (scheduled at 2023-07-09 15:05:59.401839+00:00)
+2023-07-09 18:06:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:06:59 UTC)" executed successfully
+2023-07-09 18:06:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:07:59 UTC)" (scheduled at 2023-07-09 15:06:59.401839+00:00)
+2023-07-09 18:07:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:07:59 UTC)" executed successfully
+2023-07-09 18:07:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:08:59 UTC)" (scheduled at 2023-07-09 15:07:59.401839+00:00)
+2023-07-09 18:08:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:08:59 UTC)" executed successfully
+2023-07-09 18:08:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:09:59 UTC)" (scheduled at 2023-07-09 15:08:59.401839+00:00)
+2023-07-09 18:09:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:09:59 UTC)" executed successfully
+2023-07-09 18:09:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:10:59 UTC)" (scheduled at 2023-07-09 15:09:59.401839+00:00)
+2023-07-09 18:10:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:10:59 UTC)" executed successfully
+2023-07-09 18:10:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:11:59 UTC)" (scheduled at 2023-07-09 15:10:59.401839+00:00)
+2023-07-09 18:11:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:11:59 UTC)" executed successfully
+2023-07-09 18:11:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:12:59 UTC)" (scheduled at 2023-07-09 15:11:59.401839+00:00)
+2023-07-09 18:12:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:12:59 UTC)" executed successfully
+2023-07-09 18:12:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:13:59 UTC)" (scheduled at 2023-07-09 15:12:59.401839+00:00)
+2023-07-09 18:13:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:13:59 UTC)" executed successfully
+2023-07-09 18:13:59 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:14:59 UTC)" (scheduled at 2023-07-09 15:13:59.401839+00:00)
+2023-07-09 18:14:00 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:14:59 UTC)" executed successfully
+2023-07-09 18:14:21 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:14:21 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:14:21 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:14:24 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:14:24 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:14:24 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:14:24 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:14:24 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:14:24 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:15:24 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:16:24 UTC)" (scheduled at 2023-07-09 15:15:24.277959+00:00)
+2023-07-09 18:15:25 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:16:24 UTC)" executed successfully
+2023-07-09 18:16:24 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:17:24 UTC)" (scheduled at 2023-07-09 15:16:24.277959+00:00)
+2023-07-09 18:16:25 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:17:24 UTC)" executed successfully
+2023-07-09 18:17:24 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:18:24 UTC)" (scheduled at 2023-07-09 15:17:24.277959+00:00)
+2023-07-09 18:17:25 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:18:24 UTC)" executed successfully
+2023-07-09 18:17:39 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:17:39 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:17:39 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:17:43 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:17:43 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:17:43 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:17:43 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:17:43 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:17:43 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:18:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:19:43 UTC)" (scheduled at 2023-07-09 15:18:43.315438+00:00)
+2023-07-09 18:18:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:19:43 UTC)" executed successfully
+2023-07-09 18:19:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:20:43 UTC)" (scheduled at 2023-07-09 15:19:43.315438+00:00)
+2023-07-09 18:19:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:20:43 UTC)" executed successfully
+2023-07-09 18:20:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:21:43 UTC)" (scheduled at 2023-07-09 15:20:43.315438+00:00)
+2023-07-09 18:20:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:21:43 UTC)" executed successfully
+2023-07-09 18:21:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:22:43 UTC)" (scheduled at 2023-07-09 15:21:43.315438+00:00)
+2023-07-09 18:21:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:22:43 UTC)" executed successfully
+2023-07-09 18:22:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:23:43 UTC)" (scheduled at 2023-07-09 15:22:43.315438+00:00)
+2023-07-09 18:22:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:23:43 UTC)" executed successfully
+2023-07-09 18:23:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:24:43 UTC)" (scheduled at 2023-07-09 15:23:43.315438+00:00)
+2023-07-09 18:23:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:24:43 UTC)" executed successfully
+2023-07-09 18:24:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:25:43 UTC)" (scheduled at 2023-07-09 15:24:43.315438+00:00)
+2023-07-09 18:24:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:25:43 UTC)" executed successfully
+2023-07-09 18:25:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:26:43 UTC)" (scheduled at 2023-07-09 15:25:43.315438+00:00)
+2023-07-09 18:25:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:26:43 UTC)" executed successfully
+2023-07-09 18:25:53 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:25:53 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:25:53 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:25:55 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:32:34 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:32:34 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:32:35 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:32:35 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:32:35 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:32:35 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:33:34 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:34:34 UTC)" (scheduled at 2023-07-09 15:33:34.942517+00:00)
+2023-07-09 18:33:35 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:34:34 UTC)" executed successfully
+2023-07-09 18:34:34 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:35:34 UTC)" (scheduled at 2023-07-09 15:34:34.942517+00:00)
+2023-07-09 18:34:35 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:35:34 UTC)" executed successfully
+2023-07-09 18:35:34 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:36:34 UTC)" (scheduled at 2023-07-09 15:35:34.942517+00:00)
+2023-07-09 18:35:35 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:36:34 UTC)" executed successfully
+2023-07-09 18:36:34 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:37:34 UTC)" (scheduled at 2023-07-09 15:36:34.942517+00:00)
+2023-07-09 18:36:35 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:37:34 UTC)" executed successfully
+2023-07-09 18:37:01 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:37:01 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:37:01 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:37:03 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:37:03 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:37:03 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:37:03 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:37:03 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:37:03 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:38:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:39:03 UTC)" (scheduled at 2023-07-09 15:38:03.485203+00:00)
+2023-07-09 18:38:03 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:38:03 - __main__ - ERROR - Network Error
+2023-07-09 18:38:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:39:03 UTC)" executed successfully
+2023-07-09 18:39:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:40:03 UTC)" (scheduled at 2023-07-09 15:39:03.485203+00:00)
+2023-07-09 18:39:03 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:39:03 - __main__ - ERROR - Network Error
+2023-07-09 18:39:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:40:03 UTC)" executed successfully
+2023-07-09 18:39:23 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:39:23 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:39:23 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:39:26 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:39:26 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:39:26 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:39:26 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:39:26 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:39:26 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:40:26 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:41:26 UTC)" (scheduled at 2023-07-09 15:40:26.016625+00:00)
+2023-07-09 18:40:26 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:40:26 - __main__ - ERROR - Network Error
+2023-07-09 18:40:26 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:41:26 UTC)" executed successfully
+2023-07-09 18:41:26 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:42:26 UTC)" (scheduled at 2023-07-09 15:41:26.016625+00:00)
+2023-07-09 18:41:26 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:41:26 - __main__ - ERROR - Network Error
+2023-07-09 18:41:26 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:42:26 UTC)" executed successfully
+2023-07-09 18:42:26 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:43:26 UTC)" (scheduled at 2023-07-09 15:42:26.016625+00:00)
+2023-07-09 18:42:26 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:42:26 - __main__ - ERROR - Network Error
+2023-07-09 18:42:26 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:43:26 UTC)" executed successfully
+2023-07-09 18:43:26 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:44:26 UTC)" (scheduled at 2023-07-09 15:43:26.016625+00:00)
+2023-07-09 18:43:26 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:43:26 - __main__ - ERROR - Network Error
+2023-07-09 18:43:26 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:44:26 UTC)" executed successfully
+2023-07-09 18:44:26 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:45:26 UTC)" (scheduled at 2023-07-09 15:44:26.016625+00:00)
+2023-07-09 18:44:26 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:44:26 - __main__ - ERROR - Network Error
+2023-07-09 18:44:26 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:45:26 UTC)" executed successfully
+2023-07-09 18:45:26 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:46:26 UTC)" (scheduled at 2023-07-09 15:45:26.016625+00:00)
+2023-07-09 18:45:26 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:45:26 - __main__ - ERROR - Network Error
+2023-07-09 18:45:26 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:46:26 UTC)" executed successfully
+2023-07-09 18:46:26 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:47:26 UTC)" (scheduled at 2023-07-09 15:46:26.016625+00:00)
+2023-07-09 18:46:26 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:46:26 - __main__ - ERROR - Network Error
+2023-07-09 18:46:26 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:47:26 UTC)" executed successfully
+2023-07-09 18:47:26 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:48:26 UTC)" (scheduled at 2023-07-09 15:47:26.016625+00:00)
+2023-07-09 18:47:26 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 78, in check_liquidity
+    if not check_liquidity_paused:
+UnboundLocalError: local variable 'check_liquidity_paused' referenced before assignment
+2023-07-09 18:47:26 - __main__ - ERROR - Network Error
+2023-07-09 18:47:26 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:48:26 UTC)" executed successfully
+2023-07-09 18:47:32 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:47:32 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:47:32 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:47:35 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:47:35 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:47:35 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:47:35 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:47:35 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:47:35 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:48:35 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:49:35 UTC)" (scheduled at 2023-07-09 15:48:35.390066+00:00)
+2023-07-09 18:48:36 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:49:35 UTC)" executed successfully
+2023-07-09 18:49:35 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:50:35 UTC)" (scheduled at 2023-07-09 15:49:35.390066+00:00)
+2023-07-09 18:49:35 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:50:35 UTC)" executed successfully
+2023-07-09 18:50:35 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:51:35 UTC)" (scheduled at 2023-07-09 15:50:35.390066+00:00)
+2023-07-09 18:50:35 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:51:35 UTC)" executed successfully
+2023-07-09 18:51:35 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:52:35 UTC)" (scheduled at 2023-07-09 15:51:35.390066+00:00)
+2023-07-09 18:51:35 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:52:35 UTC)" executed successfully
+2023-07-09 18:52:35 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:53:35 UTC)" (scheduled at 2023-07-09 15:52:35.390066+00:00)
+2023-07-09 18:52:35 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:53:35 UTC)" executed successfully
+2023-07-09 18:53:30 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:53:30 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:53:30 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:53:32 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:53:32 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:53:33 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:53:33 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:53:33 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:53:33 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:54:32 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:55:32 UTC)" (scheduled at 2023-07-09 15:54:32.836741+00:00)
+2023-07-09 18:54:33 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:55:32 UTC)" executed successfully
+2023-07-09 18:55:01 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 18:55:01 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 18:55:01 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 18:55:03 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:55:03 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 18:55:04 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 18:55:04 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 18:55:04 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 18:55:04 - telegram.ext.Application - INFO - Application started
+2023-07-09 18:56:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:57:03 UTC)" (scheduled at 2023-07-09 15:56:03.912641+00:00)
+2023-07-09 18:56:04 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:57:03 UTC)" executed successfully
+2023-07-09 18:57:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:58:03 UTC)" (scheduled at 2023-07-09 15:57:03.912641+00:00)
+2023-07-09 18:57:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:58:03 UTC)" executed successfully
+2023-07-09 18:58:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:59:03 UTC)" (scheduled at 2023-07-09 15:58:03.912641+00:00)
+2023-07-09 18:58:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 15:59:03 UTC)" executed successfully
+2023-07-09 18:59:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:00:03 UTC)" (scheduled at 2023-07-09 15:59:03.912641+00:00)
+2023-07-09 18:59:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:00:03 UTC)" executed successfully
+2023-07-09 19:00:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:01:03 UTC)" (scheduled at 2023-07-09 16:00:03.912641+00:00)
+2023-07-09 19:00:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:01:03 UTC)" executed successfully
+2023-07-09 19:01:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:02:03 UTC)" (scheduled at 2023-07-09 16:01:03.912641+00:00)
+2023-07-09 19:01:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:02:03 UTC)" executed successfully
+2023-07-09 19:02:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:03:03 UTC)" (scheduled at 2023-07-09 16:02:03.912641+00:00)
+2023-07-09 19:02:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:03:03 UTC)" executed successfully
+2023-07-09 19:03:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:04:03 UTC)" (scheduled at 2023-07-09 16:03:03.912641+00:00)
+2023-07-09 19:03:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:04:03 UTC)" executed successfully
+2023-07-09 19:04:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:05:03 UTC)" (scheduled at 2023-07-09 16:04:03.912641+00:00)
+2023-07-09 19:04:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:05:03 UTC)" executed successfully
+2023-07-09 19:05:03 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:10:00], next run at: 2023-07-09 16:15:03 UTC)" (scheduled at 2023-07-09 16:05:03.890655+00:00)
+2023-07-09 19:05:03 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:05:03 - __main__ - ERROR - Network Error
+2023-07-09 19:05:03 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:10:00], next run at: 2023-07-09 16:15:03 UTC)" executed successfully
+2023-07-09 19:05:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:06:03 UTC)" (scheduled at 2023-07-09 16:05:03.912641+00:00)
+2023-07-09 19:05:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:06:03 UTC)" executed successfully
+2023-07-09 19:06:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:07:03 UTC)" (scheduled at 2023-07-09 16:06:03.912641+00:00)
+2023-07-09 19:06:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:07:03 UTC)" executed successfully
+2023-07-09 19:07:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:08:03 UTC)" (scheduled at 2023-07-09 16:07:03.912641+00:00)
+2023-07-09 19:07:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:08:03 UTC)" executed successfully
+2023-07-09 19:08:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:09:03 UTC)" (scheduled at 2023-07-09 16:08:03.912641+00:00)
+2023-07-09 19:08:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:09:03 UTC)" executed successfully
+2023-07-09 19:09:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:10:03 UTC)" (scheduled at 2023-07-09 16:09:03.912641+00:00)
+2023-07-09 19:09:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:10:03 UTC)" executed successfully
+2023-07-09 19:10:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:11:03 UTC)" (scheduled at 2023-07-09 16:10:03.912641+00:00)
+2023-07-09 19:10:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:11:03 UTC)" executed successfully
+2023-07-09 19:11:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:12:03 UTC)" (scheduled at 2023-07-09 16:11:03.912641+00:00)
+2023-07-09 19:11:03 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:12:03 UTC)" executed successfully
+2023-07-09 19:11:07 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:11:07 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:11:07 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:11:10 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:11:10 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:11:10 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 19:11:10 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:11:10 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:11:10 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:12:10 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:13:10 UTC)" (scheduled at 2023-07-09 16:12:10.416120+00:00)
+2023-07-09 19:12:11 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:13:10 UTC)" executed successfully
+2023-07-09 19:12:43 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:12:43 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:12:43 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:12:45 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:12:45 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:12:45 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 19:12:45 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:12:45 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:12:45 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:12:52 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:12:52 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:12:52 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:13:04 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:13:04 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:13:05 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 19:13:05 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:13:05 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:13:05 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:13:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:16 UTC)" (scheduled at 2023-07-09 16:13:10.601068+00:00)
+2023-07-09 19:13:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:10 - __main__ - ERROR - Network Error
+2023-07-09 19:13:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:16 UTC)" executed successfully
+2023-07-09 19:13:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:22 UTC)" (scheduled at 2023-07-09 16:13:16.601068+00:00)
+2023-07-09 19:13:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:16 - __main__ - ERROR - Network Error
+2023-07-09 19:13:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:22 UTC)" executed successfully
+2023-07-09 19:13:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:28 UTC)" (scheduled at 2023-07-09 16:13:22.601068+00:00)
+2023-07-09 19:13:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:22 - __main__ - ERROR - Network Error
+2023-07-09 19:13:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:28 UTC)" executed successfully
+2023-07-09 19:13:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:34 UTC)" (scheduled at 2023-07-09 16:13:28.601068+00:00)
+2023-07-09 19:13:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:28 - __main__ - ERROR - Network Error
+2023-07-09 19:13:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:34 UTC)" executed successfully
+2023-07-09 19:13:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:40 UTC)" (scheduled at 2023-07-09 16:13:34.601068+00:00)
+2023-07-09 19:13:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:34 - __main__ - ERROR - Network Error
+2023-07-09 19:13:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:40 UTC)" executed successfully
+2023-07-09 19:13:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:46 UTC)" (scheduled at 2023-07-09 16:13:40.601068+00:00)
+2023-07-09 19:13:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:40 - __main__ - ERROR - Network Error
+2023-07-09 19:13:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:46 UTC)" executed successfully
+2023-07-09 19:13:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:52 UTC)" (scheduled at 2023-07-09 16:13:46.601068+00:00)
+2023-07-09 19:13:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:46 - __main__ - ERROR - Network Error
+2023-07-09 19:13:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:52 UTC)" executed successfully
+2023-07-09 19:13:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:58 UTC)" (scheduled at 2023-07-09 16:13:52.601068+00:00)
+2023-07-09 19:13:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:52 - __main__ - ERROR - Network Error
+2023-07-09 19:13:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:13:58 UTC)" executed successfully
+2023-07-09 19:13:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:04 UTC)" (scheduled at 2023-07-09 16:13:58.601068+00:00)
+2023-07-09 19:13:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:13:58 - __main__ - ERROR - Network Error
+2023-07-09 19:13:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:04 UTC)" executed successfully
+2023-07-09 19:14:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:10 UTC)" (scheduled at 2023-07-09 16:14:04.601068+00:00)
+2023-07-09 19:14:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:04 - __main__ - ERROR - Network Error
+2023-07-09 19:14:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:10 UTC)" executed successfully
+2023-07-09 19:14:04 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:15:04 UTC)" (scheduled at 2023-07-09 16:14:04.625068+00:00)
+2023-07-09 19:14:05 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:15:04 UTC)" executed successfully
+2023-07-09 19:14:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:16 UTC)" (scheduled at 2023-07-09 16:14:10.601068+00:00)
+2023-07-09 19:14:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:10 - __main__ - ERROR - Network Error
+2023-07-09 19:14:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:16 UTC)" executed successfully
+2023-07-09 19:14:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:22 UTC)" (scheduled at 2023-07-09 16:14:16.601068+00:00)
+2023-07-09 19:14:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:16 - __main__ - ERROR - Network Error
+2023-07-09 19:14:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:22 UTC)" executed successfully
+2023-07-09 19:14:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:28 UTC)" (scheduled at 2023-07-09 16:14:22.601068+00:00)
+2023-07-09 19:14:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:22 - __main__ - ERROR - Network Error
+2023-07-09 19:14:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:28 UTC)" executed successfully
+2023-07-09 19:14:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:34 UTC)" (scheduled at 2023-07-09 16:14:28.601068+00:00)
+2023-07-09 19:14:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:28 - __main__ - ERROR - Network Error
+2023-07-09 19:14:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:34 UTC)" executed successfully
+2023-07-09 19:14:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:40 UTC)" (scheduled at 2023-07-09 16:14:34.601068+00:00)
+2023-07-09 19:14:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:34 - __main__ - ERROR - Network Error
+2023-07-09 19:14:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:40 UTC)" executed successfully
+2023-07-09 19:14:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:46 UTC)" (scheduled at 2023-07-09 16:14:40.601068+00:00)
+2023-07-09 19:14:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:40 - __main__ - ERROR - Network Error
+2023-07-09 19:14:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:46 UTC)" executed successfully
+2023-07-09 19:14:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:52 UTC)" (scheduled at 2023-07-09 16:14:46.601068+00:00)
+2023-07-09 19:14:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:46 - __main__ - ERROR - Network Error
+2023-07-09 19:14:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:52 UTC)" executed successfully
+2023-07-09 19:14:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:58 UTC)" (scheduled at 2023-07-09 16:14:52.601068+00:00)
+2023-07-09 19:14:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:52 - __main__ - ERROR - Network Error
+2023-07-09 19:14:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:14:58 UTC)" executed successfully
+2023-07-09 19:14:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:04 UTC)" (scheduled at 2023-07-09 16:14:58.601068+00:00)
+2023-07-09 19:14:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:14:58 - __main__ - ERROR - Network Error
+2023-07-09 19:14:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:04 UTC)" executed successfully
+2023-07-09 19:15:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:10 UTC)" (scheduled at 2023-07-09 16:15:04.601068+00:00)
+2023-07-09 19:15:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:04 - __main__ - ERROR - Network Error
+2023-07-09 19:15:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:10 UTC)" executed successfully
+2023-07-09 19:15:04 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:16:04 UTC)" (scheduled at 2023-07-09 16:15:04.625068+00:00)
+2023-07-09 19:15:04 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:16:04 UTC)" executed successfully
+2023-07-09 19:15:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:16 UTC)" (scheduled at 2023-07-09 16:15:10.601068+00:00)
+2023-07-09 19:15:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:10 - __main__ - ERROR - Network Error
+2023-07-09 19:15:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:16 UTC)" executed successfully
+2023-07-09 19:15:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:22 UTC)" (scheduled at 2023-07-09 16:15:16.601068+00:00)
+2023-07-09 19:15:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:16 - __main__ - ERROR - Network Error
+2023-07-09 19:15:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:22 UTC)" executed successfully
+2023-07-09 19:15:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:28 UTC)" (scheduled at 2023-07-09 16:15:22.601068+00:00)
+2023-07-09 19:15:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:22 - __main__ - ERROR - Network Error
+2023-07-09 19:15:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:28 UTC)" executed successfully
+2023-07-09 19:15:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:34 UTC)" (scheduled at 2023-07-09 16:15:28.601068+00:00)
+2023-07-09 19:15:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:28 - __main__ - ERROR - Network Error
+2023-07-09 19:15:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:34 UTC)" executed successfully
+2023-07-09 19:15:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:40 UTC)" (scheduled at 2023-07-09 16:15:34.601068+00:00)
+2023-07-09 19:15:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:34 - __main__ - ERROR - Network Error
+2023-07-09 19:15:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:40 UTC)" executed successfully
+2023-07-09 19:15:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:46 UTC)" (scheduled at 2023-07-09 16:15:40.601068+00:00)
+2023-07-09 19:15:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:40 - __main__ - ERROR - Network Error
+2023-07-09 19:15:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:46 UTC)" executed successfully
+2023-07-09 19:15:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:52 UTC)" (scheduled at 2023-07-09 16:15:46.601068+00:00)
+2023-07-09 19:15:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:46 - __main__ - ERROR - Network Error
+2023-07-09 19:15:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:52 UTC)" executed successfully
+2023-07-09 19:15:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:58 UTC)" (scheduled at 2023-07-09 16:15:52.601068+00:00)
+2023-07-09 19:15:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:52 - __main__ - ERROR - Network Error
+2023-07-09 19:15:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:15:58 UTC)" executed successfully
+2023-07-09 19:15:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:04 UTC)" (scheduled at 2023-07-09 16:15:58.601068+00:00)
+2023-07-09 19:15:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:15:58 - __main__ - ERROR - Network Error
+2023-07-09 19:15:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:04 UTC)" executed successfully
+2023-07-09 19:16:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:10 UTC)" (scheduled at 2023-07-09 16:16:04.601068+00:00)
+2023-07-09 19:16:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:04 - __main__ - ERROR - Network Error
+2023-07-09 19:16:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:10 UTC)" executed successfully
+2023-07-09 19:16:04 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:17:04 UTC)" (scheduled at 2023-07-09 16:16:04.625068+00:00)
+2023-07-09 19:16:04 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:17:04 UTC)" executed successfully
+2023-07-09 19:16:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:16 UTC)" (scheduled at 2023-07-09 16:16:10.601068+00:00)
+2023-07-09 19:16:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:10 - __main__ - ERROR - Network Error
+2023-07-09 19:16:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:16 UTC)" executed successfully
+2023-07-09 19:16:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:22 UTC)" (scheduled at 2023-07-09 16:16:16.601068+00:00)
+2023-07-09 19:16:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:16 - __main__ - ERROR - Network Error
+2023-07-09 19:16:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:22 UTC)" executed successfully
+2023-07-09 19:16:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:28 UTC)" (scheduled at 2023-07-09 16:16:22.601068+00:00)
+2023-07-09 19:16:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:22 - __main__ - ERROR - Network Error
+2023-07-09 19:16:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:28 UTC)" executed successfully
+2023-07-09 19:16:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:34 UTC)" (scheduled at 2023-07-09 16:16:28.601068+00:00)
+2023-07-09 19:16:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:28 - __main__ - ERROR - Network Error
+2023-07-09 19:16:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:34 UTC)" executed successfully
+2023-07-09 19:16:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:40 UTC)" (scheduled at 2023-07-09 16:16:34.601068+00:00)
+2023-07-09 19:16:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:34 - __main__ - ERROR - Network Error
+2023-07-09 19:16:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:40 UTC)" executed successfully
+2023-07-09 19:16:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:46 UTC)" (scheduled at 2023-07-09 16:16:40.601068+00:00)
+2023-07-09 19:16:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:40 - __main__ - ERROR - Network Error
+2023-07-09 19:16:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:46 UTC)" executed successfully
+2023-07-09 19:16:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:52 UTC)" (scheduled at 2023-07-09 16:16:46.601068+00:00)
+2023-07-09 19:16:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:46 - __main__ - ERROR - Network Error
+2023-07-09 19:16:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:52 UTC)" executed successfully
+2023-07-09 19:16:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:58 UTC)" (scheduled at 2023-07-09 16:16:52.601068+00:00)
+2023-07-09 19:16:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:52 - __main__ - ERROR - Network Error
+2023-07-09 19:16:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:16:58 UTC)" executed successfully
+2023-07-09 19:16:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:04 UTC)" (scheduled at 2023-07-09 16:16:58.601068+00:00)
+2023-07-09 19:16:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:16:58 - __main__ - ERROR - Network Error
+2023-07-09 19:16:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:04 UTC)" executed successfully
+2023-07-09 19:17:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:10 UTC)" (scheduled at 2023-07-09 16:17:04.601068+00:00)
+2023-07-09 19:17:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:04 - __main__ - ERROR - Network Error
+2023-07-09 19:17:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:10 UTC)" executed successfully
+2023-07-09 19:17:04 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:18:04 UTC)" (scheduled at 2023-07-09 16:17:04.625068+00:00)
+2023-07-09 19:17:04 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:18:04 UTC)" executed successfully
+2023-07-09 19:17:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:16 UTC)" (scheduled at 2023-07-09 16:17:10.601068+00:00)
+2023-07-09 19:17:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:10 - __main__ - ERROR - Network Error
+2023-07-09 19:17:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:16 UTC)" executed successfully
+2023-07-09 19:17:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:22 UTC)" (scheduled at 2023-07-09 16:17:16.601068+00:00)
+2023-07-09 19:17:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:16 - __main__ - ERROR - Network Error
+2023-07-09 19:17:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:22 UTC)" executed successfully
+2023-07-09 19:17:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:28 UTC)" (scheduled at 2023-07-09 16:17:22.601068+00:00)
+2023-07-09 19:17:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:22 - __main__ - ERROR - Network Error
+2023-07-09 19:17:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:28 UTC)" executed successfully
+2023-07-09 19:17:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:34 UTC)" (scheduled at 2023-07-09 16:17:28.601068+00:00)
+2023-07-09 19:17:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:28 - __main__ - ERROR - Network Error
+2023-07-09 19:17:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:34 UTC)" executed successfully
+2023-07-09 19:17:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:40 UTC)" (scheduled at 2023-07-09 16:17:34.601068+00:00)
+2023-07-09 19:17:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:34 - __main__ - ERROR - Network Error
+2023-07-09 19:17:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:40 UTC)" executed successfully
+2023-07-09 19:17:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:46 UTC)" (scheduled at 2023-07-09 16:17:40.601068+00:00)
+2023-07-09 19:17:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:40 - __main__ - ERROR - Network Error
+2023-07-09 19:17:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:46 UTC)" executed successfully
+2023-07-09 19:17:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:52 UTC)" (scheduled at 2023-07-09 16:17:46.601068+00:00)
+2023-07-09 19:17:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:46 - __main__ - ERROR - Network Error
+2023-07-09 19:17:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:52 UTC)" executed successfully
+2023-07-09 19:17:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:58 UTC)" (scheduled at 2023-07-09 16:17:52.601068+00:00)
+2023-07-09 19:17:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:52 - __main__ - ERROR - Network Error
+2023-07-09 19:17:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:17:58 UTC)" executed successfully
+2023-07-09 19:17:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:04 UTC)" (scheduled at 2023-07-09 16:17:58.601068+00:00)
+2023-07-09 19:17:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:17:58 - __main__ - ERROR - Network Error
+2023-07-09 19:17:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:04 UTC)" executed successfully
+2023-07-09 19:18:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:10 UTC)" (scheduled at 2023-07-09 16:18:04.601068+00:00)
+2023-07-09 19:18:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:04 - __main__ - ERROR - Network Error
+2023-07-09 19:18:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:10 UTC)" executed successfully
+2023-07-09 19:18:04 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:19:04 UTC)" (scheduled at 2023-07-09 16:18:04.625068+00:00)
+2023-07-09 19:18:04 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:19:04 UTC)" executed successfully
+2023-07-09 19:18:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:16 UTC)" (scheduled at 2023-07-09 16:18:10.601068+00:00)
+2023-07-09 19:18:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:10 - __main__ - ERROR - Network Error
+2023-07-09 19:18:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:16 UTC)" executed successfully
+2023-07-09 19:18:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:22 UTC)" (scheduled at 2023-07-09 16:18:16.601068+00:00)
+2023-07-09 19:18:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:16 - __main__ - ERROR - Network Error
+2023-07-09 19:18:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:22 UTC)" executed successfully
+2023-07-09 19:18:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:28 UTC)" (scheduled at 2023-07-09 16:18:22.601068+00:00)
+2023-07-09 19:18:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:22 - __main__ - ERROR - Network Error
+2023-07-09 19:18:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:28 UTC)" executed successfully
+2023-07-09 19:18:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:34 UTC)" (scheduled at 2023-07-09 16:18:28.601068+00:00)
+2023-07-09 19:18:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:28 - __main__ - ERROR - Network Error
+2023-07-09 19:18:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:34 UTC)" executed successfully
+2023-07-09 19:18:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:40 UTC)" (scheduled at 2023-07-09 16:18:34.601068+00:00)
+2023-07-09 19:18:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:34 - __main__ - ERROR - Network Error
+2023-07-09 19:18:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:40 UTC)" executed successfully
+2023-07-09 19:18:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:46 UTC)" (scheduled at 2023-07-09 16:18:40.601068+00:00)
+2023-07-09 19:18:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:40 - __main__ - ERROR - Network Error
+2023-07-09 19:18:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:46 UTC)" executed successfully
+2023-07-09 19:18:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:52 UTC)" (scheduled at 2023-07-09 16:18:46.601068+00:00)
+2023-07-09 19:18:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:46 - __main__ - ERROR - Network Error
+2023-07-09 19:18:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:52 UTC)" executed successfully
+2023-07-09 19:18:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:58 UTC)" (scheduled at 2023-07-09 16:18:52.601068+00:00)
+2023-07-09 19:18:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:52 - __main__ - ERROR - Network Error
+2023-07-09 19:18:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:18:58 UTC)" executed successfully
+2023-07-09 19:18:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:04 UTC)" (scheduled at 2023-07-09 16:18:58.601068+00:00)
+2023-07-09 19:18:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:18:58 - __main__ - ERROR - Network Error
+2023-07-09 19:18:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:04 UTC)" executed successfully
+2023-07-09 19:19:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:10 UTC)" (scheduled at 2023-07-09 16:19:04.601068+00:00)
+2023-07-09 19:19:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:04 - __main__ - ERROR - Network Error
+2023-07-09 19:19:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:10 UTC)" executed successfully
+2023-07-09 19:19:04 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:20:04 UTC)" (scheduled at 2023-07-09 16:19:04.625068+00:00)
+2023-07-09 19:19:04 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:20:04 UTC)" executed successfully
+2023-07-09 19:19:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:16 UTC)" (scheduled at 2023-07-09 16:19:10.601068+00:00)
+2023-07-09 19:19:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:10 - __main__ - ERROR - Network Error
+2023-07-09 19:19:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:16 UTC)" executed successfully
+2023-07-09 19:19:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:22 UTC)" (scheduled at 2023-07-09 16:19:16.601068+00:00)
+2023-07-09 19:19:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:16 - __main__ - ERROR - Network Error
+2023-07-09 19:19:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:22 UTC)" executed successfully
+2023-07-09 19:19:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:28 UTC)" (scheduled at 2023-07-09 16:19:22.601068+00:00)
+2023-07-09 19:19:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:22 - __main__ - ERROR - Network Error
+2023-07-09 19:19:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:28 UTC)" executed successfully
+2023-07-09 19:19:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:34 UTC)" (scheduled at 2023-07-09 16:19:28.601068+00:00)
+2023-07-09 19:19:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:28 - __main__ - ERROR - Network Error
+2023-07-09 19:19:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:34 UTC)" executed successfully
+2023-07-09 19:19:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:40 UTC)" (scheduled at 2023-07-09 16:19:34.601068+00:00)
+2023-07-09 19:19:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:34 - __main__ - ERROR - Network Error
+2023-07-09 19:19:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:40 UTC)" executed successfully
+2023-07-09 19:19:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:46 UTC)" (scheduled at 2023-07-09 16:19:40.601068+00:00)
+2023-07-09 19:19:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:40 - __main__ - ERROR - Network Error
+2023-07-09 19:19:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:46 UTC)" executed successfully
+2023-07-09 19:19:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:52 UTC)" (scheduled at 2023-07-09 16:19:46.601068+00:00)
+2023-07-09 19:19:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:46 - __main__ - ERROR - Network Error
+2023-07-09 19:19:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:52 UTC)" executed successfully
+2023-07-09 19:19:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:58 UTC)" (scheduled at 2023-07-09 16:19:52.601068+00:00)
+2023-07-09 19:19:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:52 - __main__ - ERROR - Network Error
+2023-07-09 19:19:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:19:58 UTC)" executed successfully
+2023-07-09 19:19:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:04 UTC)" (scheduled at 2023-07-09 16:19:58.601068+00:00)
+2023-07-09 19:19:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:19:58 - __main__ - ERROR - Network Error
+2023-07-09 19:19:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:04 UTC)" executed successfully
+2023-07-09 19:20:00 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:20:00 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:20:00 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:20:03 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:20:03 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:20:03 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 19:20:03 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:20:03 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:20:03 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:20:09 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:15 UTC)" (scheduled at 2023-07-09 16:20:09.318548+00:00)
+2023-07-09 19:20:09 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:09 - __main__ - ERROR - Network Error
+2023-07-09 19:20:09 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:15 UTC)" executed successfully
+2023-07-09 19:20:15 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:21 UTC)" (scheduled at 2023-07-09 16:20:15.318548+00:00)
+2023-07-09 19:20:15 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:15 - __main__ - ERROR - Network Error
+2023-07-09 19:20:15 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:21 UTC)" executed successfully
+2023-07-09 19:20:21 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:27 UTC)" (scheduled at 2023-07-09 16:20:21.318548+00:00)
+2023-07-09 19:20:21 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:21 - __main__ - ERROR - Network Error
+2023-07-09 19:20:21 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:27 UTC)" executed successfully
+2023-07-09 19:20:27 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:33 UTC)" (scheduled at 2023-07-09 16:20:27.318548+00:00)
+2023-07-09 19:20:27 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:27 - __main__ - ERROR - Network Error
+2023-07-09 19:20:27 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:33 UTC)" executed successfully
+2023-07-09 19:20:33 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:39 UTC)" (scheduled at 2023-07-09 16:20:33.318548+00:00)
+2023-07-09 19:20:33 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:33 - __main__ - ERROR - Network Error
+2023-07-09 19:20:33 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:39 UTC)" executed successfully
+2023-07-09 19:20:39 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:45 UTC)" (scheduled at 2023-07-09 16:20:39.318548+00:00)
+2023-07-09 19:20:39 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:39 - __main__ - ERROR - Network Error
+2023-07-09 19:20:39 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:45 UTC)" executed successfully
+2023-07-09 19:20:45 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:51 UTC)" (scheduled at 2023-07-09 16:20:45.318548+00:00)
+2023-07-09 19:20:45 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:45 - __main__ - ERROR - Network Error
+2023-07-09 19:20:45 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:51 UTC)" executed successfully
+2023-07-09 19:20:51 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:57 UTC)" (scheduled at 2023-07-09 16:20:51.318548+00:00)
+2023-07-09 19:20:51 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:51 - __main__ - ERROR - Network Error
+2023-07-09 19:20:51 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:20:57 UTC)" executed successfully
+2023-07-09 19:20:57 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:03 UTC)" (scheduled at 2023-07-09 16:20:57.318548+00:00)
+2023-07-09 19:20:57 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:20:57 - __main__ - ERROR - Network Error
+2023-07-09 19:20:57 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:03 UTC)" executed successfully
+2023-07-09 19:21:03 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:09 UTC)" (scheduled at 2023-07-09 16:21:03.318548+00:00)
+2023-07-09 19:21:03 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:03 - __main__ - ERROR - Network Error
+2023-07-09 19:21:03 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:09 UTC)" executed successfully
+2023-07-09 19:21:03 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:22:03 UTC)" (scheduled at 2023-07-09 16:21:03.354537+00:00)
+2023-07-09 19:21:04 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:22:03 UTC)" executed successfully
+2023-07-09 19:21:09 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:15 UTC)" (scheduled at 2023-07-09 16:21:09.318548+00:00)
+2023-07-09 19:21:09 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:09 - __main__ - ERROR - Network Error
+2023-07-09 19:21:09 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:15 UTC)" executed successfully
+2023-07-09 19:21:15 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:21 UTC)" (scheduled at 2023-07-09 16:21:15.318548+00:00)
+2023-07-09 19:21:15 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:15 - __main__ - ERROR - Network Error
+2023-07-09 19:21:15 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:21 UTC)" executed successfully
+2023-07-09 19:21:21 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:27 UTC)" (scheduled at 2023-07-09 16:21:21.318548+00:00)
+2023-07-09 19:21:21 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:21 - __main__ - ERROR - Network Error
+2023-07-09 19:21:21 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:27 UTC)" executed successfully
+2023-07-09 19:21:27 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:33 UTC)" (scheduled at 2023-07-09 16:21:27.318548+00:00)
+2023-07-09 19:21:27 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:27 - __main__ - ERROR - Network Error
+2023-07-09 19:21:27 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:33 UTC)" executed successfully
+2023-07-09 19:21:33 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:39 UTC)" (scheduled at 2023-07-09 16:21:33.318548+00:00)
+2023-07-09 19:21:33 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:33 - __main__ - ERROR - Network Error
+2023-07-09 19:21:33 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:39 UTC)" executed successfully
+2023-07-09 19:21:39 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:45 UTC)" (scheduled at 2023-07-09 16:21:39.318548+00:00)
+2023-07-09 19:21:39 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:39 - __main__ - ERROR - Network Error
+2023-07-09 19:21:39 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:45 UTC)" executed successfully
+2023-07-09 19:21:45 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:51 UTC)" (scheduled at 2023-07-09 16:21:45.318548+00:00)
+2023-07-09 19:21:45 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:45 - __main__ - ERROR - Network Error
+2023-07-09 19:21:45 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:21:51 UTC)" executed successfully
+2023-07-09 19:21:50 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:21:50 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:21:50 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:21:52 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:21:52 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:21:53 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 19:21:53 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:21:53 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:21:53 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:21:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:04 UTC)" (scheduled at 2023-07-09 16:21:58.769052+00:00)
+2023-07-09 19:21:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:21:58 - __main__ - ERROR - Network Error
+2023-07-09 19:21:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:04 UTC)" executed successfully
+2023-07-09 19:22:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:10 UTC)" (scheduled at 2023-07-09 16:22:04.769052+00:00)
+2023-07-09 19:22:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:04 - __main__ - ERROR - Network Error
+2023-07-09 19:22:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:10 UTC)" executed successfully
+2023-07-09 19:22:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:16 UTC)" (scheduled at 2023-07-09 16:22:10.769052+00:00)
+2023-07-09 19:22:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:10 - __main__ - ERROR - Network Error
+2023-07-09 19:22:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:16 UTC)" executed successfully
+2023-07-09 19:22:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:22 UTC)" (scheduled at 2023-07-09 16:22:16.769052+00:00)
+2023-07-09 19:22:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:16 - __main__ - ERROR - Network Error
+2023-07-09 19:22:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:22 UTC)" executed successfully
+2023-07-09 19:22:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:28 UTC)" (scheduled at 2023-07-09 16:22:22.769052+00:00)
+2023-07-09 19:22:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:22 - __main__ - ERROR - Network Error
+2023-07-09 19:22:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:28 UTC)" executed successfully
+2023-07-09 19:22:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:34 UTC)" (scheduled at 2023-07-09 16:22:28.769052+00:00)
+2023-07-09 19:22:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:28 - __main__ - ERROR - Network Error
+2023-07-09 19:22:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:34 UTC)" executed successfully
+2023-07-09 19:22:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:40 UTC)" (scheduled at 2023-07-09 16:22:34.769052+00:00)
+2023-07-09 19:22:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:34 - __main__ - ERROR - Network Error
+2023-07-09 19:22:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:40 UTC)" executed successfully
+2023-07-09 19:22:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:46 UTC)" (scheduled at 2023-07-09 16:22:40.769052+00:00)
+2023-07-09 19:22:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:40 - __main__ - ERROR - Network Error
+2023-07-09 19:22:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:46 UTC)" executed successfully
+2023-07-09 19:22:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:52 UTC)" (scheduled at 2023-07-09 16:22:46.769052+00:00)
+2023-07-09 19:22:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:46 - __main__ - ERROR - Network Error
+2023-07-09 19:22:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:52 UTC)" executed successfully
+2023-07-09 19:22:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:58 UTC)" (scheduled at 2023-07-09 16:22:52.769052+00:00)
+2023-07-09 19:22:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:52 - __main__ - ERROR - Network Error
+2023-07-09 19:22:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:22:58 UTC)" executed successfully
+2023-07-09 19:22:52 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:23:52 UTC)" (scheduled at 2023-07-09 16:22:52.797557+00:00)
+2023-07-09 19:22:53 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:23:52 UTC)" executed successfully
+2023-07-09 19:22:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:04 UTC)" (scheduled at 2023-07-09 16:22:58.769052+00:00)
+2023-07-09 19:22:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:22:58 - __main__ - ERROR - Network Error
+2023-07-09 19:22:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:04 UTC)" executed successfully
+2023-07-09 19:23:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:10 UTC)" (scheduled at 2023-07-09 16:23:04.769052+00:00)
+2023-07-09 19:23:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:04 - __main__ - ERROR - Network Error
+2023-07-09 19:23:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:10 UTC)" executed successfully
+2023-07-09 19:23:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:16 UTC)" (scheduled at 2023-07-09 16:23:10.769052+00:00)
+2023-07-09 19:23:10 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:10 - __main__ - ERROR - Network Error
+2023-07-09 19:23:10 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:16 UTC)" executed successfully
+2023-07-09 19:23:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:22 UTC)" (scheduled at 2023-07-09 16:23:16.769052+00:00)
+2023-07-09 19:23:16 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:16 - __main__ - ERROR - Network Error
+2023-07-09 19:23:16 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:22 UTC)" executed successfully
+2023-07-09 19:23:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:28 UTC)" (scheduled at 2023-07-09 16:23:22.769052+00:00)
+2023-07-09 19:23:22 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:22 - __main__ - ERROR - Network Error
+2023-07-09 19:23:22 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:28 UTC)" executed successfully
+2023-07-09 19:23:28 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:34 UTC)" (scheduled at 2023-07-09 16:23:28.769052+00:00)
+2023-07-09 19:23:28 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:28 - __main__ - ERROR - Network Error
+2023-07-09 19:23:28 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:34 UTC)" executed successfully
+2023-07-09 19:23:34 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:40 UTC)" (scheduled at 2023-07-09 16:23:34.769052+00:00)
+2023-07-09 19:23:34 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:34 - __main__ - ERROR - Network Error
+2023-07-09 19:23:34 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:40 UTC)" executed successfully
+2023-07-09 19:23:40 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:46 UTC)" (scheduled at 2023-07-09 16:23:40.769052+00:00)
+2023-07-09 19:23:40 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:40 - __main__ - ERROR - Network Error
+2023-07-09 19:23:40 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:46 UTC)" executed successfully
+2023-07-09 19:23:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:52 UTC)" (scheduled at 2023-07-09 16:23:46.769052+00:00)
+2023-07-09 19:23:46 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:46 - __main__ - ERROR - Network Error
+2023-07-09 19:23:46 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:52 UTC)" executed successfully
+2023-07-09 19:23:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:58 UTC)" (scheduled at 2023-07-09 16:23:52.769052+00:00)
+2023-07-09 19:23:52 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:52 - __main__ - ERROR - Network Error
+2023-07-09 19:23:52 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:23:58 UTC)" executed successfully
+2023-07-09 19:23:52 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:24:52 UTC)" (scheduled at 2023-07-09 16:23:52.797557+00:00)
+2023-07-09 19:23:52 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:24:52 UTC)" executed successfully
+2023-07-09 19:23:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:24:04 UTC)" (scheduled at 2023-07-09 16:23:58.769052+00:00)
+2023-07-09 19:23:58 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:23:58 - __main__ - ERROR - Network Error
+2023-07-09 19:23:58 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:24:04 UTC)" executed successfully
+2023-07-09 19:24:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:24:10 UTC)" (scheduled at 2023-07-09 16:24:04.769052+00:00)
+2023-07-09 19:24:04 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:24:04 - __main__ - ERROR - Network Error
+2023-07-09 19:24:04 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:24:10 UTC)" executed successfully
+2023-07-09 19:24:08 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:24:08 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:24:08 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:29:18 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:29:18 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:29:18 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 19:29:18 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:29:18 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:29:18 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:29:24 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:29:30 UTC)" (scheduled at 2023-07-09 16:29:24.469653+00:00)
+2023-07-09 19:29:24 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:29:24 - __main__ - ERROR - Network Error
+2023-07-09 19:29:24 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:29:30 UTC)" executed successfully
+2023-07-09 19:29:30 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:29:36 UTC)" (scheduled at 2023-07-09 16:29:30.469653+00:00)
+2023-07-09 19:29:30 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:29:30 - __main__ - ERROR - Network Error
+2023-07-09 19:29:30 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:29:36 UTC)" executed successfully
+2023-07-09 19:29:33 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:29:33 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:29:33 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:30:15 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:30:15 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:30:15 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 19:30:15 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:30:15 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:30:15 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:30:21 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:30:27 UTC)" (scheduled at 2023-07-09 16:30:21.250196+00:00)
+2023-07-09 19:30:21 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:30:21 - __main__ - ERROR - Network Error
+2023-07-09 19:30:21 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:30:27 UTC)" executed successfully
+2023-07-09 19:30:27 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:30:33 UTC)" (scheduled at 2023-07-09 16:30:27.250196+00:00)
+2023-07-09 19:30:27 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+TypeError: balance() missing 1 required positional argument: 'context'
+2023-07-09 19:30:27 - __main__ - ERROR - Network Error
+2023-07-09 19:30:27 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:30:33 UTC)" executed successfully
+2023-07-09 19:30:29 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:30:29 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:30:29 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:30:40 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:30:40 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:30:41 - apscheduler.scheduler - INFO - Added job "balance" to job store "default"
+2023-07-09 19:30:41 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:30:41 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:30:41 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:30:46 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:30:52 UTC)" (scheduled at 2023-07-09 16:30:46.621973+00:00)
+2023-07-09 19:30:47 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:30:52 UTC)" executed successfully
+2023-07-09 19:30:52 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:30:58 UTC)" (scheduled at 2023-07-09 16:30:52.621973+00:00)
+2023-07-09 19:30:53 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:30:58 UTC)" executed successfully
+2023-07-09 19:30:58 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:04 UTC)" (scheduled at 2023-07-09 16:30:58.621973+00:00)
+2023-07-09 19:30:59 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:04 UTC)" executed successfully
+2023-07-09 19:31:04 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:10 UTC)" (scheduled at 2023-07-09 16:31:04.621973+00:00)
+2023-07-09 19:31:05 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:10 UTC)" executed successfully
+2023-07-09 19:31:10 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:16 UTC)" (scheduled at 2023-07-09 16:31:10.621973+00:00)
+2023-07-09 19:31:11 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:16 UTC)" executed successfully
+2023-07-09 19:31:16 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:22 UTC)" (scheduled at 2023-07-09 16:31:16.621973+00:00)
+2023-07-09 19:31:17 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:22 UTC)" executed successfully
+2023-07-09 19:31:22 - apscheduler.executors.default - INFO - Running job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:28 UTC)" (scheduled at 2023-07-09 16:31:22.621973+00:00)
+2023-07-09 19:31:23 - apscheduler.executors.default - INFO - Job "balance (trigger: interval[0:00:06], next run at: 2023-07-09 16:31:28 UTC)" executed successfully
+2023-07-09 19:31:26 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:31:26 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:31:26 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:39:33 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:39:33 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:39:33 - apscheduler.scheduler - INFO - Added job "check_liq" to job store "default"
+2023-07-09 19:39:33 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:39:33 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:39:33 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:39:39 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:39:45 UTC)" (scheduled at 2023-07-09 16:39:39.285620+00:00)
+2023-07-09 19:39:40 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:39:45 UTC)" executed successfully
+2023-07-09 19:39:45 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:39:51 UTC)" (scheduled at 2023-07-09 16:39:45.285620+00:00)
+2023-07-09 19:39:46 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:39:51 UTC)" executed successfully
+2023-07-09 19:39:51 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:39:57 UTC)" (scheduled at 2023-07-09 16:39:51.285620+00:00)
+2023-07-09 19:39:52 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:39:57 UTC)" executed successfully
+2023-07-09 19:39:57 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:40:03 UTC)" (scheduled at 2023-07-09 16:39:57.285620+00:00)
+2023-07-09 19:39:58 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:40:03 UTC)" executed successfully
+2023-07-09 19:40:00 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:40:00 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:40:00 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:41:16 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:41:16 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:41:16 - apscheduler.scheduler - INFO - Added job "check_liq" to job store "default"
+2023-07-09 19:41:16 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:41:16 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:41:16 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:41:20 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 64, in balance
+    warning_message = "<b>Alert! \nLiquidity is above 36,271!</b>"+ bal
+TypeError: can only concatenate str (not "int") to str
+2023-07-09 19:41:20 - __main__ - ERROR - Network Error
+2023-07-09 19:41:22 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:41:28 UTC)" (scheduled at 2023-07-09 16:41:22.527670+00:00)
+2023-07-09 19:41:23 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:41:28 UTC)" executed successfully
+2023-07-09 19:41:28 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:41:34 UTC)" (scheduled at 2023-07-09 16:41:28.527670+00:00)
+2023-07-09 19:41:29 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:41:34 UTC)" executed successfully
+2023-07-09 19:41:31 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_application.py", line 1124, in process_update
+    await coroutine
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_handler.py", line 141, in handle_update
+    return await self.callback(update, context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 64, in balance
+    warning_message = "<b>Alert! \nLiquidity is above 36,271!</b>"+ bal
+TypeError: can only concatenate str (not "int") to str
+2023-07-09 19:41:31 - __main__ - ERROR - Network Error
+2023-07-09 19:41:34 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:41:40 UTC)" (scheduled at 2023-07-09 16:41:34.527670+00:00)
+2023-07-09 19:41:35 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:41:40 UTC)" executed successfully
+2023-07-09 19:41:35 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:41:35 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:41:35 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:42:53 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:42:53 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:42:53 - apscheduler.scheduler - INFO - Added job "check_liq" to job store "default"
+2023-07-09 19:42:53 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:42:53 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:42:53 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:42:59 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:05 UTC)" (scheduled at 2023-07-09 16:42:59.108189+00:00)
+2023-07-09 19:43:00 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:05 UTC)" executed successfully
+2023-07-09 19:43:05 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:11 UTC)" (scheduled at 2023-07-09 16:43:05.108189+00:00)
+2023-07-09 19:43:06 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:11 UTC)" executed successfully
+2023-07-09 19:43:11 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:17 UTC)" (scheduled at 2023-07-09 16:43:11.108189+00:00)
+2023-07-09 19:43:11 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:17 UTC)" executed successfully
+2023-07-09 19:43:17 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:23 UTC)" (scheduled at 2023-07-09 16:43:17.108189+00:00)
+2023-07-09 19:43:17 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:23 UTC)" executed successfully
+2023-07-09 19:43:23 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:29 UTC)" (scheduled at 2023-07-09 16:43:23.108189+00:00)
+2023-07-09 19:43:24 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:29 UTC)" executed successfully
+2023-07-09 19:43:29 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:35 UTC)" (scheduled at 2023-07-09 16:43:29.108189+00:00)
+2023-07-09 19:43:29 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:35 UTC)" executed successfully
+2023-07-09 19:43:35 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:41 UTC)" (scheduled at 2023-07-09 16:43:35.108189+00:00)
+2023-07-09 19:43:36 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:41 UTC)" executed successfully
+2023-07-09 19:43:41 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:47 UTC)" (scheduled at 2023-07-09 16:43:41.108189+00:00)
+2023-07-09 19:43:41 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:47 UTC)" executed successfully
+2023-07-09 19:43:47 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:53 UTC)" (scheduled at 2023-07-09 16:43:47.108189+00:00)
+2023-07-09 19:43:47 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:53 UTC)" executed successfully
+2023-07-09 19:43:53 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:59 UTC)" (scheduled at 2023-07-09 16:43:53.108189+00:00)
+2023-07-09 19:43:53 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:44:53 UTC)" (scheduled at 2023-07-09 16:43:53.128191+00:00)
+2023-07-09 19:43:54 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:44:53 UTC)" executed successfully
+2023-07-09 19:43:59 - apscheduler.scheduler - WARNING - Execution of job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:43:59 UTC)" skipped: maximum number of running instances reached (1)
+2023-07-09 19:43:59 - __main__ - ERROR - Exception while handling an update:
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\anyio\streams\tls.py", line 130, in _call_sslobject_method
+    result = func(*args)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\ssl.py", line 917, in read
+    v = self._sslobj.read(len)
+ssl.SSLWantReadError: The operation did not complete (read) (_ssl.c:2578)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\backends\asyncio.py", line 34, in read
+    return await self._stream.receive(max_bytes=max_bytes)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\anyio\streams\tls.py", line 195, in receive
+    data = await self._call_sslobject_method(self._ssl_object.read, max_bytes)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\anyio\streams\tls.py", line 137, in _call_sslobject_method
+    data = await self.transport_stream.receive()
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\anyio\_backends\_asyncio.py", line 1265, in receive
+    await self._protocol.read_event.wait()
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\asyncio\locks.py", line 214, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_exceptions.py", line 10, in map_exceptions
+    yield
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\backends\asyncio.py", line 32, in read
+    with anyio.fail_after(timeout):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\anyio\_core\_tasks.py", line 118, in __exit__
+    raise TimeoutError
+TimeoutError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_transports\default.py", line 353, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_async\connection_pool.py", line 253, in handle_async_request
+    raise exc
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_async\connection_pool.py", line 237, in handle_async_request
+    response = await connection.handle_async_request(request)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_async\connection.py", line 90, in handle_async_request
+    return await self._connection.handle_async_request(request)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_async\http11.py", line 112, in handle_async_request
+    raise exc
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_async\http11.py", line 91, in handle_async_request
+    ) = await self._receive_response_headers(**kwargs)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_async\http11.py", line 155, in _receive_response_headers
+    event = await self._receive_event(timeout=timeout)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_async\http11.py", line 191, in _receive_event
+    data = await self._network_stream.read(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\backends\asyncio.py", line 31, in read
+    with map_exceptions(exc_map):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc)
+httpcore.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\request\_httpxrequest.py", line 216, in do_request
+    res = await self._client.request(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_client.py", line 1530, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_client.py", line 1617, in send
+    response = await self._send_handling_auth(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_client.py", line 1645, in _send_handling_auth
+    response = await self._send_handling_redirects(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_client.py", line 1682, in _send_handling_redirects
+    response = await self._send_single_request(request)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_client.py", line 1719, in _send_single_request
+    response = await transport.handle_async_request(request)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_transports\default.py", line 352, in handle_async_request
+    with map_httpcore_exceptions():
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.10_3.10.3056.0_x64__qbz5n2kfra8p0\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_jobqueue.py", line 777, in _run
+    await self.callback(context)
+  File "C:\Users\Mehmet\Desktop\tusd\tusd.py", line 101, in check_liq
+    await context.bot.send_message(chat_id=chat_id, text=combined_message, parse_mode='HTML')
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_extbot.py", line 2633, in send_message
+    return await super().send_message(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\_bot.py", line 381, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\_bot.py", line 807, in send_message
+    return await self._send_message(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_extbot.py", line 507, in _send_message
+    result = await super()._send_message(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\_bot.py", line 559, in _send_message
+    result = await self._post(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\_bot.py", line 469, in _post
+    return await self._do_post(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\ext\_extbot.py", line 325, in _do_post
+    return await super()._do_post(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\_bot.py", line 497, in _do_post
+    return await request.post(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\request\_baserequest.py", line 168, in post
+    result = await self._request_wrapper(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\request\_baserequest.py", line 291, in _request_wrapper
+    raise exc
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\request\_baserequest.py", line 277, in _request_wrapper
+    code, payload = await self.do_request(
+  File "C:\Users\Mehmet\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages\telegram\request\_httpxrequest.py", line 233, in do_request
+    raise TimedOut from err
+telegram.error.TimedOut: Timed out
+2023-07-09 19:43:59 - __main__ - ERROR - Network Error
+2023-07-09 19:43:59 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:44:05 UTC)" executed successfully
+2023-07-09 19:44:05 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:44:11 UTC)" (scheduled at 2023-07-09 16:44:05.108189+00:00)
+2023-07-09 19:44:05 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:06], next run at: 2023-07-09 16:44:11 UTC)" executed successfully
+2023-07-09 19:44:10 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:44:10 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:44:10 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:44:43 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:44:43 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:44:43 - apscheduler.scheduler - INFO - Added job "check_liq" to job store "default"
+2023-07-09 19:44:43 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:44:43 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:44:43 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:45:13 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:30], next run at: 2023-07-09 16:45:43 UTC)" (scheduled at 2023-07-09 16:45:13.060697+00:00)
+2023-07-09 19:45:14 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:30], next run at: 2023-07-09 16:45:43 UTC)" executed successfully
+2023-07-09 19:45:43 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:30], next run at: 2023-07-09 16:46:13 UTC)" (scheduled at 2023-07-09 16:45:43.060697+00:00)
+2023-07-09 19:45:43 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:46:43 UTC)" (scheduled at 2023-07-09 16:45:43.086716+00:00)
+2023-07-09 19:45:44 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:46:43 UTC)" executed successfully
+2023-07-09 19:45:44 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:30], next run at: 2023-07-09 16:46:13 UTC)" executed successfully
+2023-07-09 19:46:13 - apscheduler.executors.default - INFO - Running job "check_liq (trigger: interval[0:00:30], next run at: 2023-07-09 16:46:43 UTC)" (scheduled at 2023-07-09 16:46:13.060697+00:00)
+2023-07-09 19:46:14 - apscheduler.executors.default - INFO - Job "check_liq (trigger: interval[0:00:30], next run at: 2023-07-09 16:46:43 UTC)" executed successfully
+2023-07-09 19:46:24 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:46:24 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:46:24 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:46:28 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:46:28 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:46:28 - apscheduler.scheduler - INFO - Added job "check_liq" to job store "default"
+2023-07-09 19:46:28 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:46:28 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:46:28 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:47:28 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:48:28 UTC)" (scheduled at 2023-07-09 16:47:28.171867+00:00)
+2023-07-09 19:47:28 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:48:28 UTC)" executed successfully
+2023-07-09 19:47:43 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:47:43 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:47:43 - telegram.ext.Application - INFO - Application.stop() complete
+2023-07-09 19:47:45 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:47:45 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2023-07-09 19:47:46 - apscheduler.scheduler - INFO - Added job "check_liq" to job store "default"
+2023-07-09 19:47:46 - apscheduler.scheduler - INFO - Added job "check_liquidity" to job store "default"
+2023-07-09 19:47:46 - apscheduler.scheduler - INFO - Scheduler started
+2023-07-09 19:47:46 - telegram.ext.Application - INFO - Application started
+2023-07-09 19:48:45 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:49:45 UTC)" (scheduled at 2023-07-09 16:48:45.956557+00:00)
+2023-07-09 19:48:46 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:49:45 UTC)" executed successfully
+2023-07-09 19:49:45 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:50:45 UTC)" (scheduled at 2023-07-09 16:49:45.956557+00:00)
+2023-07-09 19:49:46 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:50:45 UTC)" executed successfully
+2023-07-09 19:50:45 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:51:45 UTC)" (scheduled at 2023-07-09 16:50:45.956557+00:00)
+2023-07-09 19:50:46 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:51:45 UTC)" executed successfully
+2023-07-09 19:51:45 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:52:45 UTC)" (scheduled at 2023-07-09 16:51:45.956557+00:00)
+2023-07-09 19:51:46 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:52:45 UTC)" executed successfully
+2023-07-09 19:52:45 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:53:45 UTC)" (scheduled at 2023-07-09 16:52:45.956557+00:00)
+2023-07-09 19:52:46 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:53:45 UTC)" executed successfully
+2023-07-09 19:53:45 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:54:45 UTC)" (scheduled at 2023-07-09 16:53:45.956557+00:00)
+2023-07-09 19:53:46 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:54:45 UTC)" executed successfully
+2023-07-09 19:54:45 - apscheduler.executors.default - INFO - Running job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:55:45 UTC)" (scheduled at 2023-07-09 16:54:45.956557+00:00)
+2023-07-09 19:54:46 - apscheduler.executors.default - INFO - Job "check_liquidity (trigger: interval[0:01:00], next run at: 2023-07-09 16:55:45 UTC)" executed successfully
+2023-07-09 19:54:55 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2023-07-09 19:54:55 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2023-07-09 19:54:55 - telegram.ext.Application - INFO - Application.stop() complete
